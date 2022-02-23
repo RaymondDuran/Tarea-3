@@ -1,0 +1,27 @@
+body{
+    background-color: #D3ECA7;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+span{
+    color: #19282F;
+    font-weight: bold;
+}
+h1{
+    font-size: 50px;
+    color: #19282F;
+}
+
+table{
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+button{
+    margin-bottom: 10px;
+
+            
+}

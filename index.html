@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body onload="actualizarTabla();">
+
+    <div class="cuerpo">
+        <div id="head">
+            <h1>Agenda</h1>
+            <table border="2">
+                <tr>
+                    <th>Nombre</th>
+                    <td>
+                        <input type="text" id ="txtNombre">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Apellido</th>
+                    <td>
+                        <input type="text" id ="txtApellido">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Telefono</th>
+                    <td>
+                        <input type="text" id ="txtTelefono">
+                    </td>
+                </tr>
+
+            </table>
+            <button class="agregar" onclick="agregarDatos();">Agregar</button>
+        </div>
+    
+        <table border="1">
+            <thead>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Telefono</th>
+            </thead>
+            <tbody id="cuerpoTabla">
+            </tbody>
+        </table>
+        
+    </div>
+    
+
+    <script src="js/index.js"></script>
+</body>
+</html>
